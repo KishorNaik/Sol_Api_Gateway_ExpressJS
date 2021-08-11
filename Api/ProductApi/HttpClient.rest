@@ -1,0 +1,10 @@
+###
+GET http://localhost:3002/api/product/id/1
+
+###
+POST http://localhost:3002/api/product/create
+Content-Type: application/json
+
+{
+    "name":"chai"
+}

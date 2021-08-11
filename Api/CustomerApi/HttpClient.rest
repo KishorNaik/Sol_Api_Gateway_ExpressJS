@@ -1,0 +1,11 @@
+###
+GET http://localhost:3001/api/customer/id/1
+
+###
+POST  http://localhost:3001/api/customer/create
+Content-Type: application/json
+
+{
+    "firstName":"kishor",
+    "lastName":"Naik"
+}

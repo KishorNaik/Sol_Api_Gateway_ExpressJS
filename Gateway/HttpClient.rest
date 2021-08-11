@@ -1,0 +1,22 @@
+###
+GET http://localhost:3000/api/customer/id/11
+
+###
+GET http://localhost:3000/api/product/id/12
+
+###
+POST http://localhost:3000/api/product/create
+Content-Type: application/json
+
+{
+    "name":"chai"
+}
+
+###
+POST  http://localhost:3000/api/customer/create
+Content-Type: application/json
+
+{
+    "firstName":"kishor",
+    "lastName":"Naik"
+}
